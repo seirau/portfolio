@@ -25,7 +25,7 @@ body   {
 
 }
 
-/*画面幅対応420以下*/
+/*画面幅対応439以下*/
 
 #container {
   width: 100%;
@@ -64,8 +64,8 @@ font-size: 0.8em;
 	max-width: 100%;
 }
 
-/* 420px ~ */
-@media (min-width: 420px) {
+/* 439px ~ */
+@media (min-width: 439px) {
 	#container {
   width: 100%;
 		font-size: 1em;
