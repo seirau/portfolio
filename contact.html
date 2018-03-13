@@ -1,1 +1,83 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html lang="ja">	<head>		<meta http-equiv="content-type" content="text/html;charset=shift_jis">		<meta name="generator" content="Adobe GoLive">		<title>contact</title>		<link href="common/menu.css" rel="stylesheet" type="text/css"  media="all"/>		<style type="text/css" media="screen"><!--#layer1     { visibility: visible; position: absolute; top: 2px; left: 68px; width: 601px; height: 275px }--></style>	</head>	<p><strong>to contact me please mail below��<br>		uchidaseira��gmail.com�@�i�������j</strong><br>						 <a href="mailto:uchidaseira@gmail.com?subject=�����N�˗�">�����N�˗��̃��[���͂�����</a></font></div>						 </P></body></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="ja">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="content-type" content="text/html">							<link href="common/fonts.css" rel="stylesheet" type="text/css" media="all">
+		<link href="common/main.css" rel="stylesheet" type="text/css" media="all">
+	        <link rel="shortcut icon" href="home/favicon.ico">
+		<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/btn.js">
+		</script>
+
+		<meta name="generator" content="Adobe GoLive">
+		<title>contact</title>
+		<link href="common/menu.css" rel="stylesheet" type="text/css"  media="all"/>
+	</head><body>
+	<div id="container">
+		<div id="content">		
+			<div>
+				<form milkform>
+  <input type="text" name="e-mail">
+  <input type="number" data-type="number" name="age"> <!-- 保存時の値をNumber型にしたい場合はdata-typeにnumberを指定して下さい -->
+  <textarea name="message"></textarea>
+  
+  <input id="submitBtn" type="submit" value="Send">
+</form>
+<div milkform-fallback style="display: none;">please send mail to uchidaseira☆gmail.com<br>　☆　→ ＠</div>
+
+<script src="https://cdn.mlkcca.com/v0.6.0/milkcocoa.js"></script>
+<script src="https://cdn.mlkcca.com/milkform.min.js"></script>
+
+<!-- JavaScriptの場合 -->
+<script>
+window.addEventListener('load', function () {
+  var $submitBtn = document.getElementById('submitBtn');
+  var milkform = new MilkForm('catjepr1lsw', function(isSupported){
+    // ロード完了時処理を書きたい場合はここ
+    // isSupportedにはMilkcocoaにブラウザが対応しているかが帰ってくるので
+    // milkform-fallbackを使わずに、サポートの有無に応じてこちらに自由に処理を書くことも出来ます
+  });
+  milkform.onSuccess(function(datum){
+    //送信成功時処理を書きたい場合はここ
+  });
+  milkform.onFailure(function(error){
+    //送信失敗時処理を書きたい場合はここ
+  });
+
+  $submitBtn.addEventListener('click', function () {
+    // ここにバリデーションとか
+    milkform.submit();
+  });
+});
+</script>
+
+<!-- jQueryの場合 -->
+<script>
+$(function () {
+  var $submitBtn = $('#submitBtn');
+  var milkform = new MilkForm('catjepr1lsw', function(isSupported){
+    // ロード完了時処理を書きたい場合はここ
+    // isSupportedにはMilkcocoaにブラウザが対応しているかが帰ってくるので
+    // milkform-fallbackを使わずに、サポートの有無に応じてこちらに自由に処理を書くことも出来ます
+  });
+  milkform.onSuccess(function(datum){
+    //送信成功時処理を書きたい場合はここ
+  });
+  milkform.onFailure(function(error){
+    //送信失敗時処理を書きたい場合はここ
+  });
+
+  $submitBtn.click(function () {
+    // ここにバリデーションとか
+    milkform.submit();
+  });
+});
+</script>
+</div>
+		</div>
+	</div>
+						 </body>
+
+</html>
