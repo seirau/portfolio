@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+em  { font-size: 10em;
+		font-family: san-serif; 	
+		color: #ADFF2F;
+		font-style:normal;
+		font-weight:600;
+		
+ }
+body   { background-color: #; 
+			background-image: url("usagi.gif");
+			 background-repeat: no-repeat; 
+			 background-position:300pt -10cm;  
+			 margin: 0 auto;}
+a {color:00000 ; text-decoration:none ;}
+        a:hover { color: aqua; font-size: 3em;text-decoration:none !important; } 
+        a:active{color:#ffff00;}
+strong  { color: aqua;
+			 font-size: 2em; 
+			 font-family: Helvetica,"MSPゴシック", san-serif;
+			margin: 0em; padding: 0em; 
+		 }
+.title {margin: 0em;  padding: 0em;
+		font-family: san-serif; 
+		}
+
+.cv { clear:left;
+	}
+hr {margin: 0em; padding: 0em; }
+p {font-family: "MSPゴシック",  Helvetica,san-serif;}
+.state {margin: 3em 0pt;		
+		 }
+img{vertical-align: middle;
+		padding: 0pt 5pt  0pt 0pt; }
+		
+.style001{font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+#twitterlist{margin:4em 0em 4em 1em;}

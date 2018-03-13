@@ -1,0 +1,91 @@
+@charset utf-8;
+
+/*h1  {
+	font-size: 3em;
+	font-family: #06F;
+	color: #FFF;
+ }*/
+
+
+.cv { clear:left;
+margin:3em;
+font-family: "MSPゴシック",  Helvetica,san-serif;
+	/*font:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;*/
+	color:#2340
+	}
+hr {margin: 0em; padding: 0em; }
+p {/*font-family: "MSPゴシック",  Helvetica,san-serif;
+	font:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;*/
+	color:#2340}
+.state {margin: 3em 0pt;	
+		 }
+img{vertical-align: middle;
+		padding: 0pt 5pt  0pt 0pt; }
+
+
+/*strong{
+	color: dodgerblue;
+			 font-size: 1em;
+	font-family: 'Ubuntu','ヒラギノ角ゴ Pro W3','"Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+			margin: 0em; padding: 0em; 
+		 }		
+		*/
+.style01{margin-top: 0pt;
+			padding-top: 0pt;}	
+.style02{font-size:2em;
+		font-style:;}
+.style03{font-size:1em;}
+p a.style03{color:#FF0;;}	
+p a:hover.style03{color:#C06;
+				  font-size:1em;}	
+.style033{text-align:center;
+			width:600px;
+}
+	
+/*.style133 {font-size: 50px; color: #00FFFF; font-family: Arial, Helvetica, sans-serif; font-weight: bold; }
+.style143 {font-family: serif; color: #333333; }
+.style144 {font-family: sans-serif; color: #ffccff; }
+.style145 {font-family: sans-serif; color: #ffffff; }
+.style146 {font-family: sans-serif; color: #808080; }*/
+.text{font-family: 'Ubuntu', sans-serif;}
+.style300{color: #ffff00 !important;
+				font-size: 1.5em !important;
+			 	font-weight:bold;
+			 	text-decoration: underline; !important;
+				/*font-family: "ＭＳＰ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";}*/
+.style301{text-decoration: underline;
+			color:#FCF}
+.style302{text-decoration: underline;
+			color:#FCF;
+			font-size:2em;
+			/*font-family:"MS Reference Specialty","MS明朝","serif","ヒラギノ明朝 Pro W3";*/
+
+			}			
+.style10{margin-top: 3em;
+			margin-bottom: -10pt;
+			padding-bottom: 0pt;}
+
+.styleb{font-size: 3em;}	
+.stylelonglink{font-size:1em !important;
+				}
+.styleusagi{
+			color:#06F!important;}
+			
+.stylenew{
+			color:#ffb601!important;
+}
+
+.mincyo{
+	}
+				/*background-image:url("/home/favicon.gif");
+background-repeat:repeat;*/
+}
+/*#styleusagi{background-image:url("/home/favicon.gif");
+background-repeat:repeat;}			
+*/	/*background-image: url("/home/shinzozo.gif")
+*/
+
+
+
+
+

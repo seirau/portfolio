@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+body   {
+			background-image:url("/home/na.gif");
+			background-color: mediumspringgreen;
+			background-repeat: no-repeat;
+			background-position: bottom right;	
+	  width: 100%;
+			   margin: 0 auto;}
+			
+/*ボタンの設定*/
+#pageTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+	#pageTop a {
+  display: block;
+  z-index: 999;
+	}
+/*共通*/
+#menu{
+	padding-left: 10px;
+	word-break: break-all;/*単語がはみ出る問題*/
+
+}
+
+/*画面幅対応420以下*/
+
+#container {
+  width: 100%;
+font-size: 0.8em;
+}
+#content {
+	width: 90%;
+	margin: 0px 100px 0px 10px;
+}
+#content img{
+	max-width: 100%;
+		margin: 0px;
+}
+#content .img_r{
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: 80px;
+}
+#content .img_l{
+	max-width: 60%;
+	margin-left: 80;
+	margin-right: auto;
+	float:left;
+}
+.clear{clear: both;
+}
+#lead {max-width: 90%;
+	padding: 0px 10px;
+	}
+/*動画レスポンシブ対応*/
+.iframe {
+  max-width: 100%;
+  height: 100%;
+}
+#menu {
+	max-width: 100%;
+}
+
+/* 420px ~ */
+@media (min-width: 420px) {
+	#container {
+  width: 100%;
+		font-size: 1em;
+
+}
+#content {
+	width: 90%;
+	margin: 0px 100px 0px 10px;
+}
+#content img{
+	max-width: 100%;
+		margin: 0px;
+}
+#content .img_r{
+	margin-left: auto;
+	margin-right : 10px ; 
+	text-align : left;
+}
+#lead {max-width: 90%;
+	padding: 0px 10px;
+	}
+/*動画レスポンシブ対応*/
+.iframe {
+  max-width: 100%;
+  height: 100%;
+}
+#menu {
+	max-width: 100%;
+}
+ }
+/* 640px ~ */
+@media (min-width: 640px) {
+  #container {
+	  max-width: 1080px; /* 最大横幅 */
+	  width: 100%;
+	  margin: 0 auto;
+	  		font-size: 1em;
+
+}
+	#lead {max-width: 90%;
+	padding: 0px 10px;
+	}
+	#content {
+		width: 90%;
+	margin: 0px 10px;}
+	#content img{
+	max-width: 100%;
+}
+	.br-sp { display:none; } /* タイトルの改行を消去 */
+
+ }
+
+
+

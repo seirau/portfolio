@@ -1,0 +1,36 @@
+
+@charset shift_jis;
+
+a{text-decoration: none}
+a:link {color:black;
+          text-decoration: none}
+
+a:visited{color:black;
+				text-decoration: none}
+a:hover  { color: black; font-size:120% ;}
+body {background-color: #ff00ff; 
+			background-image: url("pants.gif"); }
+.japtate { font-size:10em;
+				width: 1em;
+				font-family: serif;
+				float: left;
+				margin: 0pt 0pt 40pt 20pt;
+				 padding: 0pt 0pt 0pt 0pt;
+				 position: fixed;
+				 top: 10pt;
+				 left: 30pt;
+				 bottom: 30pt}
+.eng {font-size: 11em;
+        font-family: serif;
+        margin: 0pt;
+        padding: 0pt 0pt 0pt 0pt;
+        position: relative;
+        top: 20pt;
+        right: 10pt;
+        }
+.right{ float: right;}
+.footer {clear: both;
+			text-align: right;
+			position: fixed;
+			bottom: 7pt ;
+			right: 30pt;}

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+body p{
+	font-family :
+		'游ゴシック体', 
+		'Yu Gothic',
+	YuGothic,    /* Mac用 */
+	Ubuntu,Arial, Helvetica,'Hiragino Kaku Gothic Pro','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	color: black;
+}
+a {color:darkgoldenrod ; text-decoration:none ;}
+        a:hover { color: aqua; font-size: 2em;text-decoration:none !important; } 
+        a:active{color:#ffff00;}
+strong a:hover{color:#6B8E23 !important;}
+strong a:visited{color:salmon;}		
+
+a {color:darkgoldenrod ; text-decoration:none ;}
+        a:hover {color:	salmon;
+			font-size: 2em;text-decoration:none !important; } 
+        a:active{color:#ffff00;}
+strong a:hover{color:#6B8E23 !important;}
+strong a:visited{color:salmon;}		
+
+
+strong{
+	color: dodgerblue;
+			 font-size: 1em;
+	font-family: Ubuntu,Arial, Helvetica,'Hiragino Kaku Gothic Pro','Hiragino Kaku Gothic ProN','ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	margin: 0em; padding: 0em; 
+		 }		
+h1, h2, h3, ul li{
+	font-family:'Rammetto One', cursive, '游ゴシック体', YuGothic, 'Yu Gothic';
+	font-weight: 500;
+	list-style-type: none;
+	text-decoration:none; 
+}
+.title {
+	margin: 0em;  padding: 0em;
+	font-size: 3em;
+	color:dodgerblue;
+		}
+.secondarytitle{
+color:midnightblue;
+}
+/* CSS Document */
+
+.text{
+	font-family: 'Ubuntu','游ゴシック体', YuGothic, 'Yu Gothic', sans-serif;
+	color: black;
+}
+span{
+	font-weight: 600;
+	text-decoration: underline;
+	padding-bottom: 10px;
+	display: inline-block;
+	font-size:1.1em;
+}
