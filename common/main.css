@@ -96,8 +96,8 @@ font-size: 0.8em;
 	max-width: 100%;
 }
  }
-/* 640px ~ */
-@media (min-width: 640px) {
+/* 681px ~ */
+@media (min-width: 681px) {
   #container {
 	  max-width: 1080px; /* 最大横幅 */
 	  width: 100%;
