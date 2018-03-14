@@ -64,8 +64,8 @@ font-size: 0.8em;
 	max-width: 100%;
 }
 
-/* 439px ~ */
-@media (min-width: 439px) {
+/* 455px ~ */
+@media (min-width: 455px) {
 	#container {
   width: 100%;
 		font-size: 1em;
